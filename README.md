@@ -12,7 +12,7 @@ Magnetic field magnitude (BW[nT]) using "Wind Mission Magnetic Field Dataset"
 
 *MODEL IMPLEMENTATION*
 
-By using the parameters, we create an algorithm which predicts the intensity of electric flow. the algorithm uses a classifier which trains the datqaset and generate a current voltage spectra. 
+By using the parameters, an algorithm is created which predicts the intensity of electric flow. The algorithm uses a classifier that trains the dataset and generate a current voltage spectra. 
 
 *LANGUAGE*
 
