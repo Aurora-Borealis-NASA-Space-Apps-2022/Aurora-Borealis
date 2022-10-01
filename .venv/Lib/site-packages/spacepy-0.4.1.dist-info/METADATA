@@ -1,0 +1,47 @@
+Metadata-Version: 2.0
+Name: spacepy
+Version: 0.4.1
+Summary: SpacePy: Tools for Space Science Applications
+Home-page: https://github.com/spacepy/spacepy
+Author: SpacePy team
+Author-email: spacepy@lanl.gov
+Maintainer: Steve Morley, Josef Koller, Dan Welling, Brian Larsen, Mike Henderson, Jon Niehof
+Maintainer-email: spacepy@lanl.gov
+License: PSF
+Keywords: magnetosphere,plasma,physics,space,solar.wind,space.weather,magnetohydrodynamics
+Platform: Windows
+Platform: Linux
+Platform: MacOS X
+Platform: Unix
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Fortran
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires: numpy (>=1.10, !=1.15.0)
+Requires: scipy (>=0.11)
+Requires: matplotlib (>=1.5)
+Requires: python_dateutil
+Requires: h5py (>=2.6)
+Requires: python (>=3.1)
+Requires-Python: >=3.1
+License-File: LICENSE.md
+Requires-Dist: numpy (!=1.15.0,>=1.10)
+Requires-Dist: scipy (>=0.11)
+Requires-Dist: matplotlib (>=1.5)
+Requires-Dist: h5py (>=2.6)
+Requires-Dist: python-dateutil (>=1.4)
+
+SpacePy: Tools for Space Science Applications
