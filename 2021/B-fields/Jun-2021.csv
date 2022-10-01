@@ -1,0 +1,130 @@
+#              ************************************
+#              *****    GLOBAL ATTRIBUTES    ******
+#              ************************************
+#
+#     PROJECT                         ISTP>International Solar-Terrestrial Physics
+#     DISCIPLINE                      Space Physics>Heliospheric Science
+#     SOURCE_NAME                     WIND>Wind Interplanetary Plasma Laboratory
+#     SOFTWARE_VERSION                V05.00
+#     DATA_TYPE                       H2>High-resolution Definitive Data
+#     DESCRIPTOR                      MFI>Magnetic Fields Investigation
+#     DATA_VERSION                    04
+#     TITLE                           WIND Magnetic Field Investigation (MFI) High-Resolution Production
+#     TEXT                            WIND MFI high-resolution data file. Time resolution varies with instrument mode.
+#                                     Modes 0 & 10, low rate: .184s, high rate: .092s
+#                                     Modes 1 & 11, low rate: Prim .092s Sec 1.84s, high rate: Prim .046s Sec .92s
+#                                     Modes 2 & 12, Same as Modes 1 & 11
+#                                     Calibration constants are 1 minute averages.
+#                                     WIND MFI Instrument turn on 11/12/1994
+#                                     Data versions:
+#                                     03 - Extrapolated Bz correction
+#                                     04 - Final Bz correction
+#                                     05 - Final attitude and Bz correction
+#                                     References:
+#                                     1. Lepping, R. P., et al., The WIND Magnetic Field Investigation, p. 207 in
+#                                     The Global Geospace Mission, ed. by C. T. Russell, Kluwer,1995
+#                                     2. Panetta, P. (GSFC), GGS WIND MFI Operator's Manual, September 15, 1992.
+#                                     3. Computer Sciences Corporation, Data Format Control Document (DFCD) Between
+#                                     The International Solar-Terrestrial Physics (ISTP) Program Information
+#                                     Processing Division Ground Data Processing System and The ISTP Mission
+#                                     Investigators, CSC/TR-91/6014, 560-1DFD/0190, July 1992.
+#                                     4. Behannon, K. W., International Solar Terrestrial Physics (ISTP) Program
+#                                     Investigator Data Analysis Requirements For WIND and GEOTAIL Spacecraft
+#                                     Magnetometer Experiment, September 1987.
+#                                     5. National Space Science Data Center, CDF User's Guide, Version 2.3.0,
+#                                     October 1, 1992.
+#                                     6. Mish, W. H., International Solar-Terrestrial Physics (ISTP) Key Parameter
+#                                     Generation Software (KPGS) Standards & Conventions, September 1992.
+#                                     7. Mish, W. H., IMP F and G Phase I Magnetic Field Analysis, April 1972
+#     MODS                            10/01/2011 Initial release
+#     ADID_REF                        NSSD0141
+#     LOGICAL_FILE_ID                 wi_h2_mfi_00000000_v00
+#     LOGICAL_SOURCE                  wi_h2_mfi
+#     LOGICAL_SOURCE_DESCRIPTION      Wind Magnetic Fields Investigation, High-resolution Definitive Data
+#     PROCESSING_DATE                 Thu Feb  9 00:09:32 2012 UTC
+#     LEVEL_0_FILE                    wi_lz_mfi_20111231_v01.dat
+#                                     wi_lz_mfi_20120101_v01.dat
+#                                     wi_lz_mfi_20120102_v01.dat
+#     HKLVL_0_FILE                    wi_lz_scr_20111231_v01.dat
+#                                     wi_lz_scr_20120101_v01.dat
+#                                     wi_lz_scr_20120102_v01.dat
+#     ORBIT_FILE                      wi_or_pre_20111231_v04.cdf
+#                                     wi_or_pre_20120101_v04.cdf
+#                                     wi_or_pre_20120102_v04.cdf
+#     ATTITUDE_FILE                   wi_at_pre_20111231_v04.cdf
+#                                     wi_at_pre_20120101_v04.cdf
+#                                     wi_at_pre_20120102_v04.cdf
+#     DEF_FLAGS                       00 - Interpolated   Calibration Values
+#                                     01 - Last available Calibration Values
+#                                     02 - Daily Computed Calibration Values
+#                                     03 - Daily Computed Calibration Values with Bz corrections
+#                                     04 - High-Resolution Calibration Values
+#                                     05 - High-Resolution Calibration Values with Bz corrections
+#     DEF_SPC_MODE                    01 - Science     mode (92 sec)
+#                                     03 - Maneuver    mode (92 sec)
+#                                     04 - Contingency mode (92 sec)
+#                                     05 - Science     mode (46 sec)
+#                                     07 - Maneuver    mode (46 sec)
+#                                     08 - Contingency mode (46 sec)
+#     DEF_MAG_MODE                    00 - Primary to Secondary Ratio  (1:1) Outboard prime w/ FFT & Snapshot
+#                                     01 - Primary to Secondary Ratio (20:1) Outboard prime w/ FFT & Snapshot
+#                                     02 - Primary to Secondary Ratio (20:1) Outboard prime w/ Snapshot only
+#                                     03 - Primary to Secondary Ratio  (1:1) Outboard prime Maneuver
+#                                     07 - Primary to Secondary Ratio  (1:1) Outboard prime used Inboard data
+#                                     10 - Primary to Secondary Ratio  (1:1)  Inboard prime w/ FFT & Snapshot
+#                                     11 - Primary to Secondary Ratio (20:1)  Inboard prime w/ FFT & Snapshot
+#                                     12 - Primary to Secondary Ratio (20:1)  Inboard prime w/ Snapshot only
+#                                     13 - Primary to Secondary Ratio  (1:1)  Inboard prime Maneuver
+#     PI_NAME                         A. Koval
+#     PI_AFFILIATION                  UMBC, NASA/GSFC
+#     MISSION_GROUP                   Wind
+#     INSTRUMENT_TYPE                 Magnetic Fields (space)
+#     WEB_SITES                       http://wind.nasa.gov
+#     SPASE_DATASETRESOURCEID         spase://NASA/NumericalData/Wind/MFI/PT0.092S
+#     CDAWEB_PARENTS                  wi_h2_mfi_00000000_v01
+#                                     wi_h2_mfi_20210601_v05
+#     CDFMAJOR                        COL_MAJOR
+#
+#              ************************************
+#              ****  RECORD VARYING VARIABLES  ****
+#              ************************************
+#
+#  1. Time base for time binned measurements, the time is the center time of each bin.
+#       NOTES:  times of binned data
+#  2. Magnetic field magnitude
+#       NOTES:  B field Magnitude
+#  3. uncertainty of mean of Magnetic field magnitude
+#       NOTES:  B field Magnitude
+#  4. uncertainty of mean of Magnetic field magnitude
+#       NOTES:  B field Magnitude
+#  5. Time Binning of Magnetic field magnitude
+#       NOTES:  B field Magnitude
+#
+EPOCH_yyyy-mm-ddThh:mm:ss.sssZ,B_nT,B_CNTS,B_CNTS,#_OF_B_CNTS
+2021-06-01T00:30:00.000Z,3.0338334,0.11645285,0.11645285,39125.000
+2021-06-01T01:30:00.000Z,2.8286937,0.22636387,0.22636387,39124.000
+2021-06-01T02:30:00.000Z,3.1622190,0.091226927,0.091226927,39126.000
+2021-06-01T03:30:00.000Z,2.9320509,0.45419110,0.45419110,39124.000
+2021-06-01T04:30:00.000Z,2.2611468,0.29855776,0.29855776,39107.000
+2021-06-01T05:30:00.000Z,1.7708665,0.18112430,0.18112430,37925.000
+2021-06-01T06:30:00.000Z,2.4179845,0.40354512,0.40354512,39102.000
+2021-06-01T07:30:00.000Z,1.5363708,0.48368739,0.48368739,39123.000
+2021-06-01T08:30:00.000Z,1.3325515,0.095012528,0.095012528,39128.000
+2021-06-01T09:30:00.000Z,1.5297945,0.047574434,0.047574434,38094.000
+2021-06-01T10:30:00.000Z,1.5887256,0.082101985,0.082101985,39127.000
+2021-06-01T11:30:00.000Z,1.7030705,0.17403299,0.17403299,39120.000
+2021-06-01T12:30:00.000Z,1.6971371,0.079593576,0.079593576,38920.000
+2021-06-01T13:30:00.000Z,1.5799282,0.071051827,0.071051827,38129.000
+2021-06-01T14:30:00.000Z,1.6613585,0.053956255,0.053956255,39105.000
+2021-06-01T15:30:00.000Z,1.6135974,0.061599118,0.061599118,39130.000
+2021-06-01T16:30:00.000Z,1.4724142,0.15332382,0.15332382,39129.000
+2021-06-01T17:30:00.000Z,1.5940049,0.14501192,0.14501192,38913.000
+2021-06-01T18:30:00.000Z,1.8158635,0.13398285,0.13398285,39121.000
+2021-06-01T19:30:00.000Z,1.9218533,0.17868290,0.17868290,39128.000
+2021-06-01T20:30:00.000Z,1.9716279,0.16358529,0.16358529,39127.000
+2021-06-01T21:30:00.000Z,1.8688586,0.11306298,0.11306298,39128.000
+2021-06-01T22:30:00.000Z,1.9794903,0.17025629,0.17025629,39130.000
+2021-06-01T23:30:00.000Z,2.0202468,0.17375858,0.17375858,38476.000
+#  
+# Key Parameter and Survey data (labels K0,K1,K2) are preliminary browse data.
+# Generated by CDAWeb on: Sat Oct  1 14:42:22 2022
