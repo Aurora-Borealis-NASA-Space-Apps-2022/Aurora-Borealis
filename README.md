@@ -3,8 +3,6 @@ Official Submission of Team "Aurora Borealis" for NASA Space Apps Challenge 2022
 
 
 
-
-
 ## Introduction
 One of the most powerful solar events of the century was the Carrington Event in 1859. Powerful coronal mass ejections struck Earth directly throughout this event. Globally, including close to the equator, observers of the ensuing impacts and glimmering auroras in the night sky were noticed. Long lengths of the common telegraph transmission lines that were affected by this space weather phenomenon developed geomagnetically induced currents that produced enough current for the lines to function without batteries. In other cases, the induced currents even set some telegraph stations on fire. Fortunately, the Carrington Event had a minimal impact on both world safety and the economy because high voltage (HV) electrical power transmission lines weren't in use at the time.
 
@@ -49,6 +47,6 @@ Save the world from unavoidable solar disasters.
 [*To be a champion, compete; to be a great champion, compete with the best; but to be the greatest champion, compete with yourself*](https://www.youtube.com/watch?v=B_uEVxWl69A&feature=youtu.be)
 
 
-## Our amazing Team Members
-![image](https://drive.google.com/file/d/1z7IPuBvjmg1Fn4uWV9e4Lgw5dQqW7Rhq/view?usp=sharing)
+## Our amazing team
+![image](https://cdn.discordapp.com/attachments/1022443719405883395/1026220515431555172/2B7CBB42-6395-4D31-A9A1-756EF481F86D.png)
 
