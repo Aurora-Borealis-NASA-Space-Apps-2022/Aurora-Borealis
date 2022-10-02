@@ -41,7 +41,5 @@ Save the world from unavoidable solar disasters.
 
 
 ## Team Members
-- Muhammed Inaamullah.
-- Youssef .B. Mousa.
-- Victoria Eloho.
-- Sarah Sulayhim.
+![team canvas](https://drive.google.com/file/d/1ammgillxI7fMpcX4PuCanjlEZYbmXJBL/view?usp=sharing)
+
