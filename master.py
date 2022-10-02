@@ -35,6 +35,49 @@ for file in all_files:
 print(df)
 
 # %%
+# creating a simple Neural Network using tensorflow
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras import layers
+from tensorflow.keras.layers.experimental import preprocessing
+
+# %%
+training_data = df.sample(frac=0.8, random_state=0)
+testing_data = df.drop(training_data.index)
+
+# %%
+model = keras.Sequential([
+    layers.Dense(64, activation='relu', input_shape=[len(training_data.keys())]),
+    layers.Dense(64, activation='relu'),
+    layers.Dense(1)
+])
+
+# %%
+model.compile(loss='mean_absolute_error',
+                optimizer=tf.keras.optimizers.Adam(0.001))
+
+# %%
+# training the model
+history = model.fit( training_data, epochs=1000, verbose=0, validation_split=0.2)
+
+# %%
+# plotting the loss
+hist = pd.DataFrame(history.history)
+hist['epoch'] = history.epoch
+hist.tail()
+
+# %%
+# plotting the data
+def plot_loss(history):
+    plt.plot(history.history['loss'], label='loss')
+    plt.plot(history.history['val_loss'], label='val_loss')
+    plt.xlabel('Epoch')
+    plt.ylabel('Error [BW[nT]]')
+    plt.legend()
+    plt.grid(True)
+
+
+# %%
 # plotting the data of the combined CSV file
 df.plot(x='Time', y='BW[nT]', kind='line', figsize=(20, 10), color='red')
 df.plot(x='Time', y='B[nT]', kind='line', figsize=(20, 10), color='blue')
