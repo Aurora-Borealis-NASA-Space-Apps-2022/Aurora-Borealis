@@ -15,7 +15,7 @@ However, such an occurrence would be terrible in the modern world, when almost e
 ## Problem Statement/Solution
 The effects on society could be catastrophic if a significant space weather catastrophe similar to the Carrington Event of 1859 occurred now. The goal of this challenge is to created neural network pipeline that can accurately track changes in the peak solar wind speed and give a head start on the possibility for the next Carrington-like event.
 
-
+![our solution](https://cdn.discordapp.com/attachments/1022443719405883395/1025290766018416770/unknown.png)
 
 ### What problem does it solve?
 The issue of delayed transmission in solar flare changes.
