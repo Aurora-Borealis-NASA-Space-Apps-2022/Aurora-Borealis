@@ -41,5 +41,5 @@ Save the world from unavoidable solar disasters.
 
 
 ## Team Members
-![team canvas](https://drive.google.com/file/d/1ammgillxI7fMpcX4PuCanjlEZYbmXJBL/view?usp=sharing)
+![team canvas](https://drive.google.com/file/d/1z7IPuBvjmg1Fn4uWV9e4Lgw5dQqW7Rhq/view?usp=sharing)
 
