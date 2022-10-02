@@ -1,6 +1,9 @@
 # Aurora-Borealis
 Official Submission of Team "Aurora Borealis" for NASA Space Apps Challenge 2022 participating in the challenge "SAVE THE EARTH FROM ANOTHER CARRINGTON EVENT!"
 
+<img src=" ">
+![color](https://user-images.githubusercontent.com/68698006/193462863-9243044e-6b15-4ef4-b01c-3141a33193c7.jpeg)
+
 ## Introduction
 One of the most powerful solar events of the century was the Carrington Event in 1859. Powerful coronal mass ejections struck Earth directly throughout this event. Globally, including close to the equator, observers of the ensuing impacts and glimmering auroras in the night sky were noticed. Long lengths of the common telegraph transmission lines that were affected by this space weather phenomenon developed geomagnetically induced currents that produced enough current for the lines to function without batteries. In other cases, the induced currents even set some telegraph stations on fire. Fortunately, the Carrington Event had a minimal impact on both world safety and the economy because high voltage (HV) electrical power transmission lines weren't in use at the time.
 
@@ -26,8 +29,7 @@ By speculation, the Carrington event is set to occur in the near future. This is
 - Model implementation - By using the parameters, an algorithm is created which predicts the intensity of electric flow. The algorithm uses a classifier that trains the dataset and generates a current voltage spectra.
 - Language - Python v3.10.
 
-
-### How did using data from one or more of the 10 space partner agencies make your solution possible? 
+![graph](https://user-images.githubusercontent.com/68698006/193462892-48b15b48-3d1e-40b5-b3fe-2180ad3541d0.jpeg)
 
 
 ## Into The Future
