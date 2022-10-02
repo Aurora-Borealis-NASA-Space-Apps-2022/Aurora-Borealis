@@ -1,7 +1,7 @@
 # Aurora-Borealis
 Official Submission of Team "Aurora Borealis" for NASA Space Apps Challenge 2022 participating in the challenge "SAVE THE EARTH FROM ANOTHER CARRINGTON EVENT!"
 
-<img src=" ">
+
 ![color](https://user-images.githubusercontent.com/68698006/193462863-9243044e-6b15-4ef4-b01c-3141a33193c7.jpeg)
 
 ## Introduction
