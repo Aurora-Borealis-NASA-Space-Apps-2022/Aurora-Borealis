@@ -4,11 +4,15 @@ Official Submission of Team "Aurora Borealis" for NASA Space Apps Challenge 2022
 ## Introduction
 One of the most powerful solar events of the century was the Carrington Event in 1859. Powerful coronal mass ejections struck Earth directly throughout this event. Globally, including close to the equator, observers of the ensuing impacts and glimmering auroras in the night sky were noticed. Long lengths of the common telegraph transmission lines that were affected by this space weather phenomenon developed geomagnetically induced currents that produced enough current for the lines to function without batteries. In other cases, the induced currents even set some telegraph stations on fire. Fortunately, the Carrington Event had a minimal impact on both world safety and the economy because high voltage (HV) electrical power transmission lines weren't in use at the time.
 
+However, such an occurrence would be terrible in the modern world, when almost everything is powered by electricity, computers, and other devices that are connected to the "grid." Large numbers of high energy particles that are ejected during solar storms as solar wind have the potential to harm electrical and electronic infrastructure like power lines and satellites for communication. Since it takes a very long time to get such large power transformers and they are expensive to replace, it is possible that the HV power lines and substations on which we rely could be damaged or rendered inoperable for months or years.
+
 ## Problem Statement/Solution
-*What problem does it solve?*
+The effects on society could be catastrophic if a significant space weather catastrophe similar to the Carrington Event of 1859 occurred now. The goal of this challenge is to created neural network pipeline that can accurately track changes in the peak solar wind speed and give a head start on the possibility for the next Carrington-like event.
+
+### What problem does it solve?
 The issue of delayed transmission in solar flare changes.
 
-**What do people gain?**
+### What do people gain?
 Quick alert on any solar flare changes.
 
 ### Where is the opportunity? 
