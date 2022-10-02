@@ -45,10 +45,10 @@ People can prepare in advance or even stay away from instruments that can trigge
 ### What can your solution do for people, the world, and beyond? 
 Save the world from unavoidable solar disasters.
 
-## Video 
+## Final Video 
 [*To be a champion, compete; to be a great champion, compete with the best; but to be the greatest champion, compete with yourself*](https://www.youtube.com/watch?v=B_uEVxWl69A&feature=youtu.be)
 
 
-## Team Members
-![team canvas](https://drive.google.com/file/d/1z7IPuBvjmg1Fn4uWV9e4Lgw5dQqW7Rhq/view?usp=sharing)
+## Our amazing Team Members
+![image](https://drive.google.com/file/d/1z7IPuBvjmg1Fn4uWV9e4Lgw5dQqW7Rhq/view?usp=sharing)
 
